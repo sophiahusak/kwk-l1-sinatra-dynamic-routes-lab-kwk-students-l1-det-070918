@@ -18,6 +18,4 @@ get '/say/:number/:phrase' do
   (num1*num2).to_s 
 end
 
-get '/say/:word1/:word2/:word3/:word4/:word'
-
 end
