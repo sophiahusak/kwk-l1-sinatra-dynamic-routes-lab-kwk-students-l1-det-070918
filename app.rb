@@ -19,5 +19,9 @@ get '/say/:number/:phrase' do
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do 
-  
+  @word1 = params[:word1].to_i
+  @word2 = params[:word2].to_i
+  @word3 = params[:word3].to_i
+  @word4 = params[:word4].to_i
+  @word5 = params[:word5].to_i
 end
